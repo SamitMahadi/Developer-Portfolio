@@ -12,21 +12,22 @@ h1 {
 }
 
 section {
-    display: flex
+    display: flex;
+    margin-bottom: 100px;
 }
 
 .linked-button {
     text-decoration: none;
     padding: 10px 40px;
     white-space: 10px;
-    background-color: orangered;
+    background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
     color: white;
     font-weight: 700;
 }
 
 img {
-    height: 600px;
+    height: 550px;
 }
 
 .top-banner {
@@ -37,4 +38,10 @@ img {
 .half-width {
     width: 50%;
     padding-left: 6%;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
