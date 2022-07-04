@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -14,9 +15,26 @@ section {
     display: flex
 }
 
-.button {
+.linked-button {
     text-decoration: none;
-    background: linear-gradient(orange tomato);
-    padding: 10px 30px;
+    padding: 10px 40px;
+    white-space: 10px;
+    background-color: orangered;
     border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+img {
+    height: 600px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 6%;
 }
